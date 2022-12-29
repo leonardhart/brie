@@ -90,7 +90,7 @@ def get_droplet_UMIcount(gene, samFile, event_type="SE", edge_hang=10,
     return Rmat, R_CB, R_UR
 
 
-def encode_reads(Rmat, R_CB, R_UR, cell_list, g_idx, merge_UMIs=True,
+def encode_reads(Rmat, R_CB, R_UR, cell_list, g_idx, merge_UMIs=False,
         matched_reads_only=False, verbose=False):
     """Encode reads
     """
